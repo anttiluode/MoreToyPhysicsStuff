@@ -1,5 +1,10 @@
 # TADS/WoW/Clockfield Simulation Explorations
 
+EDIT: 
+
+Added qft_tads_pyvista_3d4.py which is 3d version that does everything live with sliders. It uses pyvistaqt also which you have to install 
+wiht pip install pyvistaqt.
+
 This repository contains Python scripts exploring emergent phenomena based on theoretical ideas combining concepts like TADS (Temporal Accumulation Dilation Space), WoW (World-on-World / Wave-on-Wave), and a Clockfield.
 
 These simulations model fields with non-linear dynamics, aiming to generate complex structures, particle-like excitations, and potentially signatures like 1/f noise from simple underlying rules.
