@@ -496,7 +496,7 @@ if __name__ == '__main__':
     # Initialize simulator (adjust grid size based on GPU memory)
     try:
         # Attempt to use a larger grid size, e.g., 64^3 or 128^3 if sufficient VRAM
-        grid_size_to_try = 320 # Start with 64 as default for GPU
+        grid_size_to_try = 128 # Start with 64 as default for GPU
         print(f"Attempting to initialize simulator with grid_size={grid_size_to_try}...")
         sim_instance = ExplicitWoWSimulator3D_FP16(num_layers=4, grid_size=grid_size_to_try)
     except Exception as e_mem: # Catch potential memory errors on GPU
